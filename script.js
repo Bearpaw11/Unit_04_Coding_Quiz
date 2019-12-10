@@ -14,7 +14,7 @@ function setTime() {
       secondsLeft--;
       timeEl.textContent = ("Time left: ") + secondsLeft;
         console.log("current time is" + secondsLeft)
-      if(secondsLeft === 0) {
+      if(secondsLeft === -1) {
         clearInterval(timerInterval);
         sendMessage();
       }

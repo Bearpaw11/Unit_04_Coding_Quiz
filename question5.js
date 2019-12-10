@@ -13,7 +13,7 @@ function setTime() {
       secondsLeft--;
       timeEl.textContent = ("Time left: ") + secondsLeft;
         console.log("current time is" + secondsLeft)
-      if(secondsLeft === 0) {
+      if(secondsLeft === -1) {
         clearInterval(timerInterval);
         sendMessage();
       }
@@ -38,7 +38,7 @@ falseEl0.addEventListener("click", function(nextpage0){
 
 falseEl1.addEventListener("click", function(nextpage1){
     nextpage1.preventDefault();
-    window.location = 'qresults.html';
+    window.location = 'results.html';
 })
 
 falseEl2.addEventListener("click", function(nextpage2){
