@@ -6,21 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Code Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <a class="link" href="highScores.html">View High Scores</a>
     <div id="time"></div>
-    <h1 id="questionsRight"></h1>
-    <h1 id="finalScore"></h1>
-    <h2 class="finalScore"></h2>
-    <form method="POST">
-        <label for="name">Please enter your name</label>
-        <input type="name" name="name" id="name1" />
-        <button id="name">Submit</button>
-    </form>
+    <div class="jumbotron all">
+        <h1 id="questionsRight"></h1>
+        <h1 id="finalScore"></h1>
+        <h2 class="finalScore"></h2>
+        <form method="POST">
+            <div class="center">
+            <label for="name">Please enter your name</label>
+            <input type="name" name="name" id="name1" />
+            </div>
+            <br>
+            <button id="name">Submit</button>
+        </form>
 
-    <script src="./results.js"></script>
+        <script src="./results.js"></script>
+
+    </div>
 </body>
 
 </html>

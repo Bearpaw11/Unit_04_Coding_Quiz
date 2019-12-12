@@ -1,18 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Code Quiz</title>
-</head>
-<body>
-    <a class="link" href="highScores.html">View High Scores</a>
-    <div class="time">Time left: 60</div>
-    <h1>Coding Quiz Challange</h1>
-    <p>This is a JavaScript quiz. You have 60 seconds to answer 5 questions. Get 20 points for each correct answer and get a point for every second you have left on the clock at the end. If you run out of time you may still finish but you will not recevie any time bonus points. Click Start Quiz to begin</p>
-   <button id="startQuiz">Start Quiz</button></a>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Code Quiz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <a class="link" href="highScores.html">View High Scores</a>
+  <div class="time">Time left: 60</div>
+  <div class="jumbotron all">
+    <div id="main">
+      <h1>Coding Quiz Challange</h1>
+      <p>This is a JavaScript coding quiz. You have 60 seconds to answer 5 questions. Get 20 points for each correct answer
+        and get a point for every second you have left on the clock at the end. If you run out of time you may still
+        finish but you will not recevie any time bonus points. Click Start Quiz to begin</p>
+      <button id="startQuiz">Start Quiz</button></a>
+    </div>
+
+    <form id="question1">
+      <h1>Question 1 of 5: Inside which HTML element do we put the JavaScript?</h1>
+      <ul id="none">
+        <li class="false1">
+          <button>js</button>
+        </li>
+        <br>
+        <li class="true1">
+          <button>script</button>
+        </li>
+        <br>
+        <li class="false1">
+          <button>javascript</button>
+        </li>
+        <br>
+        <li class="false1">
+          <button>scripting</button>
+        </li>
+        <br>
+      </ul>
+    </form>
+
+    <form id="question2">
+      <h1>Question 2 of 5: How do you write "Hello World" in an alert box?</h1>
+      <ul class="none">
+        <li class="false2">
+          <button>msg("Hello World")</button>
+        </li>
+        <br>
+        <li class="false2">
+          <button>alertBox("Hello World")</button>
+        </li>
+        <br>
+        <li class="true2">
+          <button>alert("Hello World")</button>
+        </li>
+        <br>
+        <li class="false2">
+          <button>msgBox("Hello World")</button>
+        </li>
+        <br>
+      </ul>
+    </form>
+
+    <form id="question3">
+      <h1>Question 3 of 5: How do you create a function in JavaScript?</h1>
+      <ul class="none">
+        <li class="false3">
+          <button>function = myFunction()</button>
+        </li>
+        <br>
+        <li class="true3">
+          <button>function myFunction()</button>
+        </li>
+        <br>
+        <li class="false3">
+          <button>function:myFunction()</button>
+        </li>
+        <br>
+        <li class="false3">
+          <button>myFunction function()</button>
+        </li>
+        <br>
+      </ul>
+    </form>
+
+    <form id="question4">
+      <h1>Question 4 of 5: How do you call a function named "myFunction"?</h1>
+      <ul id="none">
+        <li class="false4">
+          <button>call function myFunction()</button>
+        </li>
+        <br>
+        <li class="false4">
+          <button>call myFunction()</button>
+        </li>
+        <br>
+        <li class="true4">
+          <button>myFunction()</button>
+        </li>
+        <br>
+        <li class="false4">
+          <button> call = myFunction()</button>
+        </li>
+        <br>
+      </ul>
+    </form>
+
+    <form id="question5">
+      <h1>Question 5 of 5: How to write an IF statement in JavaScript?</h1>
+      <ul id="none">
+        <li class="false5">
+          <button>if i == 5 then</button>
+        </li>
+        <br>
+        <li class="false5">
+          <button>if i = 5</button>
+        </li>
+        <br>
+        <li class="false5">
+          <button>if i = 5 then</button>
+        </li>
+        <br>
+        <li class="true5">
+          <button>if (i == 5)</button>
+        </li>
+        <br>
+      </ul>
+    </form>
     <script src="./script.js"></script>
+  </div>
 </body>
+
 </html>

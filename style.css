@@ -1,0 +1,88 @@
+#question1 {
+    display: none
+}
+
+#question2 {
+    display: none
+}
+
+#question3 {
+    display: none
+}
+
+#question4 {
+    display: none
+}
+
+#question5 {
+    display: none
+}
+
+.link {
+    float: left;
+    padding-left: 10px;
+    font-family: 'Playfair Display', serif;
+    color: #2D987A
+}
+
+.time {
+    float: right;
+    padding-right: 10px;
+    font-family: 'Playfair Display', serif;
+    color: #2D987A
+}
+
+#time {
+    float: right;
+    padding-right: 10px;
+    font-family: 'Playfair Display', serif;
+    color: #2D987A
+}
+
+#name{
+    width: 150px;
+    display: block; margin: 0 auto;
+    color: 4AB195;
+}
+
+.center{
+    display: block;
+    text-align: center;
+}
+.all {
+    font-family: 'Playfair Display', serif;
+    background-color: #D6f8ee !important;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 25px;
+    font-weight: bold;
+    color: #2D987A
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 25px;
+    color: #2D987A
+}
+
+#startQuiz{
+    width: 150px;
+    display: block; margin: 0 auto;
+    color: 4AB195;
+}
+
+#clearHighScores {
+    width: 150px;
+    display: block; margin: 0 auto;
+    color: 4AB195;
+}
+
+#scoresList{
+    text-align: center;
+    list-style-position: inside;
+    color: #2D987A;
+    font-size: 25px;
+}
